@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applcation Form</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Form.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <header>Welcome to Your Company</header>
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label for="#">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" required>
+                </div>
+                <div class="input-box">
+                    <label for="#">E-mail</label>
+                    <input type="email" placeholder="ex : name@gmail.com" required>
+                </div>
+                <div class="input-box">
+                    <label for="#">Phone Number</label>
+                    <input type="text" placeholder="(000) 000-0000" required>
+                </div>
+                <div class="input-box">
+                    <label for="#">Address</label>
+                    <input type="text" placeholder="Street Address" required>
+
+                    <input type="text" placeholder="City" required>
+
+                    <input type="text" placeholder="Zip Code" required>
+                </div>
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" name="gender" id="check-male">
+                            <label for="check-male">Male</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" name="gender" id="check-female">
+                            <label for="check-female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="field-box">
+                    <h3>What is your residency status</h3>
+                    <div class="field-option">
+                        <div class="field">
+                            <input type="radio" name="field" id="Citizen">
+                            <label for="Citizen">Citizen</label>
+                        </div>
+                        <div class="field">
+                            <input type="radio" name="field" id="Resident">
+                            <label for="Resident">Resident</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="file" class="Uplode">Uplode File</label>
+                    <input type="file" class="none" id="file">
+                    <span>Please provide any information that may assist in your application process.</span>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+</body>
+</html>

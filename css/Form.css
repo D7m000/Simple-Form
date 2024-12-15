@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f3f3fe;
+}
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+}
+.container header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+.form .input-box label {
+    color: black;
+}
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-top: 8px;
+}
+.form .input-box input[type="file"]{
+    display: none;
+}
+.form .input-box label.Uplode {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 39px 280px;
+}
+@media(max-width :767px){
+    .form .input-box label.Uplode {
+        border: 1px solid;
+        padding: 38px 107px;
+    }
+}
+.form span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #777;
+    display: flex;
+    margin-top: 45px;
+}
+.form .gender-box {
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+.form .gender-box h3 {
+    font-weight: normal;
+}
+.form .gender-box .gender {
+    cursor: pointer;
+    margin-top: 8px;
+}
+.form .field-box {
+    margin-bottom: 70px;
+}
+.form .field-box h3 {
+    font-weight: normal;
+}
+.form .field-box .field {
+    cursor: pointer;
+    margin-top: 8px;
+}
+.form button {
+    height: 45px;
+    width: 140px;
+    margin-top: 50px;
+    margin-left: 256px;
+    text-transform: uppercase;
+}
+@media (max-width :767px){
+    .form button {
+        margin-top: 65px;
+        margin-left: 75px;
+        text-transform: uppercase;
+    }
+}
